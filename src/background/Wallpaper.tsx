@@ -6,7 +6,7 @@ type IWallpaperProps = {
 
 const Wallpaper = (props: IWallpaperProps) => (
   <div style={{ 
-    backgroundImage: `url('/assets/images/orion-cut.jpg')`,
+    backgroundImage: `url('/assets/images/bg-hero.jpg')`,
     
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover'

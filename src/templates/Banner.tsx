@@ -5,8 +5,8 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section>
     <CTABanner
-      title="Quer garantir o teu palco de conhecimento?"
-      subtitle="Fale conosco, que daremos um jeito!"
+      title="Quer saber como funciona?"
+      subtitle="Fale conosco, que entraremos em contato!"
       button={
         <a href='mailto:oi@helplit.com.br' target="_blank">
             <Button >oi@helplit.com.br</Button>
