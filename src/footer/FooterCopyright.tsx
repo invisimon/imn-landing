@@ -2,7 +2,7 @@ import { AppConfig } from '../utils/AppConfig';
 
 const FooterCopyright = () => (
   <div className="footer-copyright">
-    © Copyright {new Date().getFullYear()} {AppConfig.site_name}. <a href="https://short-serpent-e22.notion.site/Conhe-a-a-Helplit-21ab2daff9514bfc8472b21ef13f9fd5" target="_blank"><u>Ah! Também precisamos da sua ajuda!</u></a>
+    © Copyright {new Date().getFullYear()} {AppConfig.site_name}. <a href="https://short-serpent-e22.notion.site/Conhe-a-a-Helplit-21ab2daff9514bfc8472b21ef13f9fd5" target="_blank"><u>Também precisamos da sua ajuda!</u></a>
     <br/>( template de <strong>creativedesignsguru.com</strong> e artes de <strong>storyset.com</strong> )
     {/*
      * PLEASE READ THIS SECTION
