@@ -10,7 +10,7 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            <span className="text-primary-400" style={{lineHeight: 1.5, display: "inline-block"}}><mark style={{backgroundColor: "#FAA468", color: 'white'}}>conhecer a si para aprender o que quiser.</mark></span>
+            <span className="text-primary-400" style={{lineHeight: 1.5, display: "inline-block"}}><mark style={{backgroundColor: "#F1825B", color: 'white'}}>conhecer a si para aprender o que quiser.</mark></span>
           </>
         }
         button={
