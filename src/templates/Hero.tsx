@@ -1,28 +1,26 @@
-import { Background } from '../background/Background';
+import { Wallpaper } from '../background/Wallpaper';
 import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 
 const Hero = () => (
-  <Background color="bg-gray-100">
+  <Wallpaper>
 
     <Section yPadding="pt-20 pb-32">
       <HeroOneButton
         title={
           <>
-            {'EM MANUTENÇÃO :)\n'}
-            <span className="text-primary-500">nossa landing page ficará aqui</span>
+            <span className="text-primary-400" style={{lineHeight: 1.5, display: "inline-block"}}><mark style={{backgroundColor: "#FAA468", color: 'white'}}>conhecer a si para aprender o que quiser.</mark></span>
           </>
         }
-        description="em caso de dúvidas, fale comigo (João, CKO): 51 994 321 079"
         button={
           <a href="https://app.helplit.com.br/" target="_blank">
-            <Button xl>a plataforma</Button>
+            <Button xl>🚧 plataforma</Button>
           </a>
         }
       />
     </Section>
-  </Background>
+  </Wallpaper>
 );
 
 export { Hero };
