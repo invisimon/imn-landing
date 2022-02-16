@@ -8,20 +8,20 @@ const VerticalFeatures = () => (
   >
     <VerticalFeatureRow
       title="Quem sou eu na multidão?"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      description="Investigue seu perfil comportamental através de testes psicológicos. Enxergue suas qualidades ao mapear habilidades, visão de mundo, e tendências do perfil de aprendizagem."
       image="/assets/images/storyset1.png"
       imageAlt="arte criada por STORYSET"
     />
     <VerticalFeatureRow
       title="Que caminhos posso trilhar?"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      description="Encontre os palcos de conhecimento pelos perfis dos autores e suas publicações. Isto é, por especialização (fortalecer o que você já sabe) ou complementaridade (explorar conhecimentos que fogem do seu domínio e merecem mais atenção)."
       image="/assets/images/storyset2.jpg"
       imageAlt="arte criada por STORYSET"
       reverse
     />
     <VerticalFeatureRow
       title="Como posso me destacar?"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      description="Inspire aos outros e torne-se reconhecido profissionalmente. Utilize a Helplit como uma vitrine das suas habilidades para o mundo, e contribua de forma protegida para os palcos de conhecimentos da sua própria instituição empregadora."
       image="/assets/images/storyset3.png"
       imageAlt="arte criada por STORYSET"
     />
