@@ -15,7 +15,7 @@ const Hero = () => (
         }
         button={
           <a href="https://marvelapp.com/prototype/6dii4f4/" target="_blank">
-            <Button xl>🎨 teste o protótipo</Button>
+            <Button xl>💻 teste o protótipo</Button>
           </a>
         }
       />
