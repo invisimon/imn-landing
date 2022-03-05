@@ -12,7 +12,7 @@ const Footer = () => (
         logo={<Logo />}
         iconList={
           <>
-          <p>CEO: Rosângela⠀</p>
+          <p>CEO: Rosangela⠀</p>
 
             <a href='https://linkedin.com/in/rosangela-viegas-maraschin' target="_blank">
                 <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -26,7 +26,7 @@ const Footer = () => (
                 </svg>
               </a>
               
-          <p>CKO: João⠀</p>
+          <p>CKO: João Marcelo⠀</p>
 
             <Link href="/">
             <a href='https://linkedin.com/in/jmfantin' target="_blank">
