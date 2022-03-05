@@ -8,13 +8,13 @@ const VerticalFeatures = () => (
   >
     <VerticalFeatureRow
       title="Quem sou eu na multidão?"
-      description="Investigue seu perfil comportamental através de testes psicológicos. Enxergue suas qualidades ao mapear habilidades, visão de mundo, e tendências do perfil de aprendizagem."
+      description="Investigue seu perfil comportamental através de testes psicológicos. Reconheça suas qualidades ao mapear habilidades, visão de mundo, e tendências do perfil de aprendizagem."
       image="/assets/images/storyset1.png"
       imageAlt="arte criada por STORYSET"
     />
     <VerticalFeatureRow
       title="Que caminhos posso trilhar?"
-      description="Encontre os palcos de conhecimento pelos perfis dos autores e suas publicações. Isto é, por especialização (fortalecer o que você já sabe) ou complementaridade (explorar conhecimentos que fogem do seu domínio e merecem mais atenção)."
+      description="Encontre os palcos de conhecimento pelos perfis dos autores e suas publicações. Isto é, por especialização (fortalecer o que você já sabe) ou complementaridade (explorar conceitos além do seu domínio que merecem mais atenção)."
       image="/assets/images/storyset2.jpg"
       imageAlt="arte criada por STORYSET"
       reverse
