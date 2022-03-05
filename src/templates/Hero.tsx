@@ -14,8 +14,8 @@ const Hero = () => (
           </>
         }
         button={
-          <a href="https://app.helplit.com.br/" target="_blank">
-            <Button xl>🚧 plataforma</Button>
+          <a href="https://marvelapp.com/prototype/6dii4f4/" target="_blank">
+            <Button xl>🎨 teste o protótipo</Button>
           </a>
         }
       />
