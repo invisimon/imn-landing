@@ -2,8 +2,6 @@ import { Button } from '../button/Button';
 import { CTABanner } from '../cta/CTABanner';
 import { Section } from '../layout/Section';
 
-import TXT from './strings';
-
 const Banner = () => (
   <Section>
     <CTABanner
