@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import { AppConfig } from '../utils/AppConfig';
+
+import TXT from './strings';
 
 type ILogoProps = {
   xl?: boolean;
@@ -13,12 +14,18 @@ const Logo = (props: ILogoProps) => {
   return (
     <span className={`text-gray-900 inline-flex items-center ${fontStyle}`}>
       <Image
-        height='40px'
-        width='40px'
+        height='50px'
+        width='50px'
         src={'/assets/images/helpii-mod.png'}
       />
-
-      {'⠀' + AppConfig.site_name}
+      <div className='buffs'>
+        <a href='https://fi.co' target="_blank">
+          {TXT('BUFF_FOUNDER')}
+        </a>
+        <a href='https://www.unilasalle.edu.br/canoas/servicos/la-salle-tech' target="_blank">
+          {TXT('BUFF_LASALLE')}
+        </a>
+      </div>
     </span>
   );
 };

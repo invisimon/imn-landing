@@ -16,4 +16,12 @@
     right: 20px;
     bottom: 20px;
   }
+  .buffs {
+    display: flex;
+    flex-direction: column
+  }
+  .intrabuff {
+    display: flex;
+    flex-direction: row
+  }
 }
