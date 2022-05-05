@@ -16,8 +16,8 @@ const records = {
     '⠀Incubated at La Salle Tech ⭐',
   ],
   HERO_TITLE: [
-    'HELPLIT\nCrowdsourced Teaching Experiences',
     'HELPLIT\nExperiências de Ensino Colaboradas',
+    'HELPLIT\nCrowdsourced Teaching Experiences',
   ],
   HERO_BTN: [
     '💻 veja o protótipo',
@@ -57,7 +57,7 @@ const records = {
   ],
   BANNER_TITLE: [
     'Sinapses foram ativadas? 🧠',
-    'Can you feel the synapses? 🧠',
+    'Can you feel the synapses firing up? 🧠',
   ],
   BANNER_SUBTITLE: [
     'Nos mande um email e pergunte o que quiser!',
