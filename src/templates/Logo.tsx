@@ -25,6 +25,9 @@ const Logo = (props: ILogoProps) => {
         <a href='https://www.unilasalle.edu.br/canoas/servicos/la-salle-tech' target="_blank">
           {TXT('BUFF_LASALLE')}
         </a>
+        <a href='https://www.sebrae.com.br/sites/PortalSebrae/catalisa/ictedital' target="_blank">
+          {TXT('BUFF_CATALISA')}
+        </a>
       </div>
     </span>
   );

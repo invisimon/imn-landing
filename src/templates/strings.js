@@ -15,6 +15,10 @@ const records = {
     '⠀Incubados no La Salle Tech ⭐',
     '⠀Incubated at La Salle Tech ⭐',
   ],
+  BUFF_CATALISA: [
+    '⠀Selecionados no Catalisa ICT 🧪',
+    '⠀Selected in Catalisa ICT 🧪',
+  ],
   HERO_TITLE: [
     'HELPLIT\nExperiências de Ensino Colaboradas',
     'HELPLIT\nCrowdsourced Teaching Experiences',
