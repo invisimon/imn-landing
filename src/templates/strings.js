@@ -20,8 +20,8 @@ const records = {
     '⠀Selected in Catalisa ICT 🧪',
   ],
   HERO_TITLE: [
-    'HELPLIT\nExperiências de Ensino Colaboradas',
-    'HELPLIT\nCrowdsourced Teaching Experiences',
+    'HELPLIT\nExperiências de Aprendizagem Colaboradas',
+    'HELPLIT\nCrowdsourced Learning Experiences',
   ],
   HERO_BTN: [
     '💻 veja o protótipo',
