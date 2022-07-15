@@ -1,5 +1,5 @@
-import { createContext, ReactNode, useContext } from 'react';
-import { useState } from 'react';
+import { createContext, ReactNode, useContext } from "react";
+import { useState } from "react";
 
 type Lang = {
   iso: string;
@@ -18,15 +18,15 @@ type LangContextProviderProps = {
 };
 
 export function LangContextProvider({ children }: LangContextProviderProps) {
-  const initialLang = { iso: 'PT', n: 0 };
+  const initialLang = { iso: "EN", n: 0 };
 
   const [lang, setLang] = useState(initialLang);
 
   function toggleLang() {
-    if (lang.iso === 'PT') {
-      setLang({ iso: 'EN', n: 1 });
+    if (lang.iso === "PT") {
+      setLang({ iso: "EN", n: 0 });
     } else {
-      setLang({ iso: 'PT', n: 0 });
+      setLang({ iso: "PT", n: 1 });
     }
   }
 

@@ -8,7 +8,7 @@ export default function TXT(entry) {
 
 const records = {
   NOTICE: [
-    'Em breve.',
     'Soon.',
+    'Em breve.',
   ]
 };
