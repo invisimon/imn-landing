@@ -1,9 +1,12 @@
-import { AppProps } from 'next/app';
+import { AppProps } from "next/app";
+import { LangContextProvider } from "../contexts/LangContext";
 
-import '../styles/global.css';
+import "../styles/global.css";
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
-  <Component {...pageProps} />
+  <LangContextProvider>
+    <Component {...pageProps} />
+  </LangContextProvider>
 );
 
 export default MyApp;
