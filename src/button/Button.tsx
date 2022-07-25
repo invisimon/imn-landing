@@ -1,4 +1,4 @@
-import className from 'classnames';
+import className from "classnames";
 
 type IButtonProps = {
   xl?: boolean;
@@ -8,9 +8,9 @@ type IButtonProps = {
 const Button = (props: IButtonProps) => {
   const btnClass = className({
     btn: true,
-    'btn-xl': props.xl,
-    'btn-base': !props.xl,
-    'btn-primary': true,
+    "btn-xl": props.xl,
+    "btn-base": !props.xl,
+    "btn-primary": true,
   });
 
   return (
@@ -32,11 +32,11 @@ const Button = (props: IButtonProps) => {
           }
 
           .btn-primary {
-            @apply text-white bg-primary-500;
+            @apply text-white bg-black;
           }
 
           .btn-primary:hover {
-            @apply bg-primary-400;
+            @apply bg-gray-900;
           }
         `}
       </style>

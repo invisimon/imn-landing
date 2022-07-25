@@ -4,6 +4,7 @@ import TXT from "./strings";
 
 import Image from "next/image";
 import { LangButton } from "./LangButton";
+import { ContactButton } from "./ContactButton";
 
 const Base = () => (
   <div className="antialiased text-gray-600">
@@ -15,6 +16,7 @@ const Base = () => (
         height="251px"
       />
       <h1 className="text-black text-lg mb-10">{TXT("NOTICE")}</h1>
+      <ContactButton />
       <LangButton />
     </main>
   </div>
