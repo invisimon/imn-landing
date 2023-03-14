@@ -1,13 +1,7 @@
 export function RedditButton() {
   return (
-    <a href="https://reddit.com/r/invisimon" target="_blank">
-      <button
-        className="socialButton"
-        style={{
-          background: `url('/misc/reddit.png')`,
-        }}
-      />
-    </a>
+    <p> 
+    </p>
   );
 }
 
