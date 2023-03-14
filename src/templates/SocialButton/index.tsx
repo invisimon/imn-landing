@@ -1,12 +1,5 @@
 export function RedditButton() {
   return (
-    <p> 
-    </p>
-  );
-}
-
-export function InstaButton() {
-  return (
     <a href="https://instagram.com/invisimon" target="_blank">
       <button
         className="socialButton"
@@ -16,5 +9,12 @@ export function InstaButton() {
         }}
       />
     </a>
+  );
+}
+
+export function InstaButton() {
+  return (
+    <p> 
+    </p>
   );
 }
