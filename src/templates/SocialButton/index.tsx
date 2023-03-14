@@ -14,7 +14,14 @@ export function RedditButton() {
 
 export function InstaButton() {
   return (
-    <p> 
-    </p>
+    <a href="https://instagram.com/invisimon" target="_blank" className="opacity-0">
+      <button
+        className="socialButton"
+        style={{
+          left: "70px",
+          background: `url('/misc/instagram.png')`,
+        }}
+      />
+    </a>
   );
 }
