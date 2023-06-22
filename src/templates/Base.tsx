@@ -9,7 +9,7 @@ import { RedditButton, InstaButton } from "./SocialButton";
 
 const Base = () => (
   <div className="antialiased text-gray-600">
-    <Meta title={AppConfig.title} description={AppConfig.description} />
+    <Meta title={AppConfig.title} description={AppConfig.description}/>
     <main className="min-h-[100vh] w-full flex-1 flex flex-col items-center justify-center overflow-hidden">
       <Image
         src={"/assets/images/transp-reduced.png"}
