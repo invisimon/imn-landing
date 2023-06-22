@@ -17,10 +17,6 @@ const Base = () => (
         height="251px"
       />
       <h1 className="text-black text-lg mb-10">{TXT("NOTICE")}</h1>
-      <ContactButton />
-      <LangButton />
-      <RedditButton />
-      <InstaButton />
     </main>
   </div>
 );
